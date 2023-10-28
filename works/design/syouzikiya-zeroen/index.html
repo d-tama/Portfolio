@@ -12,20 +12,21 @@
     <link rel="stylesheet" href="../../../common/css/fancybox.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">        <script src="../../../node_modules/howler/dist/howler.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
     <link rel="icon" href="../../../common/image/favicon.ico">
     <link rel="apple-touch-icon" href="../../../common/image/favicon.ico" sizes="180x180">
     <script src="../../../common/js/howler.min.js"></script>
 </head>
 
 <body id="content">
-
+    <!--独自のカーソル-->
+    <!-- <div id="cursor" class="work_cursor"></div> -->
     
     <!-- ローディング画面 -->
     <div id="loading">
         <div class="loader">Loading...</div>
     </div>
-
+    
     <!--独自のスクロールバー-->
     <div class="scroll" id="target">
         <div id="scrollbar-container" id="target">
@@ -35,54 +36,71 @@
         </div>
     </div>
 
+    <!-- <header id="fixed-header" class="work_fixed-header is-show">
+        <a href="https://cat-neko.com/portfolio/index.html">
+            <img src="../../../common/image/daishiito.svg" alt="">
+        </a>
+    </header> -->
+
+    <!-- オーディオボタン -->
+    <!-- <div class="audio_wrap">
+        <div class="audio_button"></div>
+    </div> -->
+
 
     <div class="all">
         <div class="wrapper">
             <div class="information">
                 <ul>
                     <li class="work-title">
-                        台所
+                        正直屋 値上げ0円祭 LP
                     </li>
                     <li class="Production-date">
                         <span class="data-name">制作日時</span>
-                        <span class="datta-content">2020/3/6</span>
+                        <span class="datta-content">2023/10/27</span>
+                    </li>
+                    <li class="production-time">
+                        <span class="data-name">制作期間</span>
+                        <span class="datta-content">1週間半</span>
                     </li>
                     <li class="production-time">
                         <span class="data-name">制作時間</span>
-                        <span class="datta-content">4時間</span>
+                        <span class="datta-content">35時間</span>
                     </li>
                     <li class="software">
                         <span class="data-name">使用ソフト</span>
                         <span class="datta-content">
+                            <span>illustrator</span>
                             <span>Photoshop</span>
+                            <span>XD</span>
                         </span>
                     </li>
-                    <!-- <li class="languages">
+                    <li class="languages">
                         <span class="data-name">使用言語</span>
                         <span class="datta-content">
                             <span>HTML</span>
                             <span>CSS</span>
                             <span>Javascript</span>
                         </span>
-                    </li> -->
-                    <li>
-                        台所の写真模写です。
                     </li>
+                    <li>
+                        別の社員が作成したチラシを元に制作したLPです。<br>
+                        チラシの補助的なものとして制作した特設サイトになります。
+                        時間がなかったことや、スマホで見る方の割合が大きいであろうことから、スマホ特化のLPとして作成しました。
+                    </li>
+                    <a href="https://syouziki.net/zero-yen-fes/" target=”_blank” class="view-site">
+                        <span>VIEW SITE</span>
+                    </a>
                 </ul>
             </div>
             <div class="images" id="gallery-wrap">
-                <a data-fancybox="gallery" href="./item01.png" data-caption="台所">
+                <a data-fancybox="gallery" href="./item01.png" data-caption="正直屋 価格0円祭 LP">
                     <img src="./item01.png" alt="" calss="work-img">
                 </a>
             </div>
         </div>
 
     </div>
-    <!-- <a id="page-top" href="#">
-        <div>
-            <img src="../../../common/image/page-top.svg" alt="">
-        </div>
-    </a> -->
 
     <script type="module" src="../../../common/js/main.js" charset="utf-8"></script>
     <script src="../../../common/js/text-show.js"></script>
