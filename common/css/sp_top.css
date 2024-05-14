@@ -12,7 +12,7 @@
   .top-name div img {
     width: 80vw;
   }
-  .top-name div span {
+  .top-name div h1 {
     font-weight: 400;
   }
   .scrolldown1 {
@@ -33,7 +33,7 @@
       top: max(4rem, 4vw);
     }
   }
-  h1 {
+  h2 {
     font-size: max(3rem, 13vw);
   }
   .about-wrapper {

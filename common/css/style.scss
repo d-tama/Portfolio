@@ -47,7 +47,7 @@ html {
         img {
             width: 40vw;
         }
-        span{
+        h1{
             font-family: 'Montserrat', sans-serif;
             font-size: max(1.5rem,1.8vw);
             font-weight: 500;
@@ -117,7 +117,7 @@ html {
     width: 100%;
 }
 
-h1 {
+h2 {
     font-size: max(5rem, 5vw);
     font-weight: bold;
     width: 100%;
@@ -326,17 +326,18 @@ p {
     max-width: max(55rem,63%);
     width: 100%;
     margin: 0 auto;
-}
-
-h4 {
-    font-size: max(1.2rem, 1.2vw);
-    font-weight: bold;
-    margin-bottom: max(0.5rem, 0.5vw);
-    text-align: left;
-    span{
-        cursor: url(../image/cursor/text.webp),text;
+    h3 {
+        font-size: max(1.2rem, 1.2vw);
+        font-weight: bold;
+        margin-bottom: max(0.5rem, 0.5vw);
+        text-align: left;
+        border-bottom: none;
+        span{
+            cursor: url(../image/cursor/text.webp),text;
+        }
     }
 }
+
 
 .item-wrapper {
     width: 100%;
