@@ -86,7 +86,7 @@ html {
   transition: 0.2s;
 }
 .wrapper .information .view-site span {
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
 }
 .wrapper .information .view-site:hover {
   background-color: white;

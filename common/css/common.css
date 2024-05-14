@@ -10,15 +10,15 @@ html {
 }
 
 body {
-  cursor: url(../image/cursor/default.png), default;
+  cursor: url(../image/cursor/default.webp), default;
 }
 
 p, span, li {
-  cursor: url(../image/cursor/text.png), text;
+  cursor: url(../image/cursor/text.webp), text;
 }
 
 a, button {
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
 }
 
 /* ローディング画面 */
@@ -113,7 +113,7 @@ body.loading-scroll {
   background-color: rgb(250, 250, 250);
   border: max(0.1rem, 0.1vw) solid black;
   border-radius: 100vw;
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
   transition: 0.3s;
 }
 .audio_wrap:hover {
@@ -170,7 +170,7 @@ body.loading-scroll {
   background: rgb(250, 250, 250);
   border: max(0.1rem, 0.1vw) solid black;
   border-radius: 100%;
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
   width: max(4rem, 4vw);
   height: max(4rem, 4vw);
   margin: 0 auto;
@@ -186,7 +186,7 @@ body.loading-scroll {
   height: 100%;
 }
 .hamburger-menu div span {
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
   display: inline-block;
   transition: all 0.5s;
   /*アニメーションの設定*/
@@ -285,7 +285,7 @@ nav .gnav-navi-1 .nav-item .nav-item-in a {
   overflow: hidden;
 }
 nav .gnav-navi-1 .nav-item .nav-item-in span {
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
   --base-offset-y: 1.7em;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
@@ -319,7 +319,7 @@ nav .gnav-navi-1 .nav-item .works-nav .works-nav-item a {
   overflow: hidden;
 }
 nav .gnav-navi-1 .nav-item .works-nav .works-nav-item span {
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
   --base-offset-y: 1.7em;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
@@ -448,7 +448,7 @@ body {
 
 @media screen and (max-width: 1200px) {
   a {
-    cursor: url(../image/cursor/pointer.png), pointer;
+    cursor: url(../image/cursor/pointer.webp), pointer;
   }
   nav {
     flex-direction: column;

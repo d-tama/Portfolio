@@ -18,7 +18,7 @@ html {
   z-index: -1;
   width: 100vw;
   height: 45svh;
-  background-image: url("../image/ocean_morning.png");
+  background-image: url("../image/ocean_morning.webp");
   background-position: 45% 48%;
   background-size: cover;
   position: fixed;
@@ -117,7 +117,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 h1 span {
-  cursor: url(../image/cursor/text.png), text;
+  cursor: url(../image/cursor/text.webp), text;
 }
 
 /*全共通*/
@@ -305,7 +305,7 @@ h4 {
   text-align: left;
 }
 h4 span {
-  cursor: url(../image/cursor/text.png), text;
+  cursor: url(../image/cursor/text.webp), text;
 }
 
 .item-wrapper {
@@ -325,7 +325,7 @@ h4 span {
   width: max(12rem, 14vw);
   transition: 0.5s;
   border: max(0.1rem, 0.1vw) solid black;
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -362,11 +362,11 @@ h4 span {
   border-left: max(0.1rem, 0.1vw) solid black;
   background-color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
 }
 .item .production-date span {
   padding: 0 max(0.2rem, 0.2vw);
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
 }
 .item .work-name {
   font-size: max(0.8rem, 0.8vw);
@@ -375,7 +375,7 @@ h4 span {
   display: block;
   margin: max(0.3rem, 0.3vw);
   word-wrap: break-word;
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
 }
 .item:hover {
   box-shadow: 0 0 0 max(0.03rem, 0.03vw) rgb(0, 0, 0);
@@ -457,7 +457,7 @@ h4 span {
   color: black;
   text-decoration: none;
   box-shadow: 0 0 0 max(0.13rem, 0.13vw) black;
-  cursor: url(../image/cursor/pointer.png), pointer;
+  cursor: url(../image/cursor/pointer.webp), pointer;
 }
 
 body.modal-open {

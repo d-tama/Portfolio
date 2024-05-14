@@ -19,7 +19,7 @@ html {
         z-index: $top-img;
         width: 100vw;
         height: 45svh;
-        background-image: url("../image/ocean_morning.png");
+        background-image: url("../image/ocean_morning.webp");
         background-position: 45% 48%;
         background-size: cover;
         position: fixed;
@@ -125,7 +125,7 @@ h1 {
     vertical-align:middle;
     font-family: 'Montserrat', sans-serif;
     span{
-        cursor: url(../image/cursor/text.png),text;
+        cursor: url(../image/cursor/text.webp),text;
     }
 }
 
@@ -334,7 +334,7 @@ h4 {
     margin-bottom: max(0.5rem, 0.5vw);
     text-align: left;
     span{
-        cursor: url(../image/cursor/text.png),text;
+        cursor: url(../image/cursor/text.webp),text;
     }
 }
 
@@ -359,7 +359,7 @@ h4 {
     // box-shadow: 0.1rem 0.1rem 0.1rem white inset,
     // -0.1rem -0.1rem 0.1rem rgba(0, 0, 0, 0.15) inset;
     border: max(0.1rem, 0.1vw) solid black;
-    cursor: url(../image/cursor/pointer.png),pointer;
+    cursor: url(../image/cursor/pointer.webp),pointer;
     overflow: hidden;
     display: flex;
 	flex-direction: column;
@@ -397,11 +397,11 @@ h4 {
         // border-radius: max(0.3rem, 0.3vw) 0 0 0;
         background-color: rgba(255, 255, 255, 0.5);
         overflow: hidden;
-        cursor: url(../image/cursor/pointer.png),pointer;
+        cursor: url(../image/cursor/pointer.webp),pointer;
 
         span {
             padding: 0 max(0.2rem, 0.2vw);
-            cursor: url(../image/cursor/pointer.png),pointer;
+            cursor: url(../image/cursor/pointer.webp),pointer;
         }
     }
 
@@ -412,7 +412,7 @@ h4 {
         display: block;
         margin: max(0.3rem, 0.3vw);
         word-wrap: break-word;
-        cursor: url(../image/cursor/pointer.png),pointer;
+        cursor: url(../image/cursor/pointer.webp),pointer;
     }
 
     &:hover {
@@ -503,7 +503,7 @@ h4 {
     color: black;
     text-decoration: none;
     box-shadow: 0 0 0 max(0.13rem, 0.13vw) black;
-    cursor: url(../image/cursor/pointer.png),pointer;
+    cursor: url(../image/cursor/pointer.webp),pointer;
 }
 
 body.modal-open {

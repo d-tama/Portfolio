@@ -352,7 +352,7 @@
     background: var(--f-button-bg);
     box-shadow: var(--f-button-shadow);
     pointer-events: all;
-    cursor: url(../../../../../common/image/cursor/pointer.png),pointer;
+    cursor: url(../../../../../common/image/cursor/pointer.webp),pointer;
     transition: var(--f-button-transition)
 }
 
@@ -831,7 +831,7 @@ html.with-fancybox body.hide-scrollbar {
     left: 50%;
     margin: var(--f-spinner-top, calc(var(--f-spinner-width) * -0.5)) 0 0 var(--f-spinner-left, calc(var(--f-spinner-height) * -0.5));
     z-index: 30;
-    cursor: url(../../../../../common/image/cursor/pointer.png),pointer;
+    cursor: url(../../../../../common/image/cursor/pointer.webp),pointer;
 }
 
 .fancybox-protected {
@@ -1041,7 +1041,7 @@ html.with-fancybox body.hide-scrollbar {
     min-width: var(--f-thumb-width);
     height: var(--f-thumb-height);
     overflow: visible;
-    cursor: url(../../../../../common/image/cursor/pointer.png),pointer;
+    cursor: url(../../../../../common/image/cursor/pointer.webp),pointer;
 }
 
 .f-thumbs__slide.is-loading img {
@@ -1063,7 +1063,7 @@ html.with-fancybox body.hide-scrollbar {
     bottom: 0;
     left: calc(var(--left, 0)*1px);
     width: calc(100% - var(--width, 0)*1px);
-    cursor: url(../../../../../common/image/cursor/pointer.png),pointer;
+    cursor: url(../../../../../common/image/cursor/pointer.webp),pointer;
 }
 
 .is-modern .f-thumbs__slide {
@@ -1105,7 +1105,7 @@ html.with-fancybox body.hide-scrollbar {
     overflow: hidden;
     background: rgba(0, 0, 0, 0);
     outline: none;
-    cursor: url(../../../../../common/image/cursor/pointer.png),pointer;
+    cursor: url(../../../../../common/image/cursor/pointer.webp),pointer;
     pointer-events: auto;
     touch-action: manipulation;
     opacity: var(--f-thumb-opacity);

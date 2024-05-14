@@ -12,14 +12,14 @@ html {
     scroll-behavior: smooth;    
 }
 body{
-    cursor: url(../image/cursor/default.png),default;
+    cursor: url(../image/cursor/default.webp),default;
 }
 
 p,span,li{
-    cursor: url(../image/cursor/text.png),text;
+    cursor: url(../image/cursor/text.webp),text;
 }
 a,button{
-    cursor: url(../image/cursor/pointer.png),pointer;
+    cursor: url(../image/cursor/pointer.webp),pointer;
 }
 
 /* ローディング画面 */
@@ -124,7 +124,7 @@ body.loading-scroll {
     background-color: $back-color;
     border: max(0.1rem, 0.1vw) solid black;
     border-radius: 100vw;
-    cursor: url(../image/cursor/pointer.png),pointer;
+    cursor: url(../image/cursor/pointer.webp),pointer;
     transition: 0.3s;
 
     &:hover {
@@ -189,7 +189,7 @@ body.loading-scroll {
     background: $back-color;
     border: max(0.1rem, 0.1vw) solid black;
     border-radius: 100%;
-    cursor: url(../image/cursor/pointer.png),pointer;
+    cursor: url(../image/cursor/pointer.webp),pointer;
     width: max(4rem, 4vw);
     height: max(4rem, 4vw);
     margin: 0 auto;
@@ -206,7 +206,7 @@ body.loading-scroll {
         height: 100%;
 
         span {
-            cursor: url(../image/cursor/pointer.png),pointer;
+            cursor: url(../image/cursor/pointer.webp),pointer;
             display: inline-block;
             transition: all .5s;
             /*アニメーションの設定*/
@@ -316,7 +316,7 @@ nav {
                 }
 
                 span {
-                    cursor: url(../image/cursor/pointer.png),pointer;
+                    cursor: url(../image/cursor/pointer.webp),pointer;
                     --base-offset-y: 1.7em;
                     overflow: hidden;
                     transition: all 0.3s ease-in-out;
@@ -359,7 +359,7 @@ nav {
                     }
 
                     span {
-                        cursor: url(../image/cursor/pointer.png),pointer;
+                        cursor: url(../image/cursor/pointer.webp),pointer;
                         --base-offset-y: 1.7em;
                         overflow: hidden;
                         transition: all 0.3s ease-in-out;
@@ -518,7 +518,7 @@ body {
 @media screen and (max-width:1200px) {
 
     a {
-        cursor: url(../image/cursor/pointer.png),pointer;
+        cursor: url(../image/cursor/pointer.webp),pointer;
     }
 
     nav {
