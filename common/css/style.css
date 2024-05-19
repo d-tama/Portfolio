@@ -322,7 +322,6 @@ p span.text-show.active {
 
 .item {
   background-color: rgb(255, 255, 255);
-  border-radius: max(0.3rem, 0.3vw);
   width: max(12rem, 14vw);
   transition: 0.5s;
   border: max(0.1rem, 0.1vw) solid black;
@@ -361,7 +360,6 @@ p span.text-show.active {
           backdrop-filter: blur(2px);
   border-top: max(0.1rem, 0.1vw) solid black;
   border-left: max(0.1rem, 0.1vw) solid black;
-  border-radius: max(0.3rem, 0.3vw) 0 0 0;
   background-color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
   cursor: url(../image/cursor/pointer.webp), pointer;
