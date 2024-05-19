@@ -320,6 +320,14 @@ p span.text-show.active {
   margin: 0 auto;
 }
 
+@keyframes item-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .item {
   background-color: rgb(255, 255, 255);
   width: max(12rem, 14vw);
@@ -331,6 +339,8 @@ p span.text-show.active {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
+  opacity: 0; /* 最初は非表示 */
+  transition: 0.5s ease; /* アニメーション設定 */
 }
 .item .item-img {
   height: max(12rem, 14vw);
