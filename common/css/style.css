@@ -320,7 +320,7 @@ p span.text-show.active {
   margin: 0 auto;
 }
 
-@keyframes item-fadeIn {
+@keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -339,8 +339,7 @@ p span.text-show.active {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  opacity: 0; /* 最初は非表示 */
-  transition: 0.5s ease; /* アニメーション設定 */
+  opacity: 0;
 }
 .item .item-img {
   height: max(12rem, 14vw);
