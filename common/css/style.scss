@@ -354,7 +354,7 @@ p {
 .item {
     background-color: rgba(255, 255, 255, 1);
     // padding: max(0.5rem, 0.5vw);
-    // border-radius: max(0.3rem, 0.3vw);
+    border-radius: max(0.3rem, 0.3vw);
     width: max(12rem,14vw);
     transition: 0.5s;
     // box-shadow: 0.1rem 0.1rem 0.1rem white inset,
@@ -366,7 +366,6 @@ p {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: stretch;
-    opacity: 0;
     .item-img {
         height: max(12rem,14vw);
         width: 100%;
@@ -396,7 +395,7 @@ p {
         backdrop-filter: blur(2px);
         border-top: max(0.1rem, 0.1vw) solid black;
         border-left: max(0.1rem, 0.1vw) solid black;
-        // border-radius: max(0.3rem, 0.3vw) 0 0 0;
+        border-radius: max(0.3rem, 0.3vw) 0 0 0;
         background-color: rgba(255, 255, 255, 0.5);
         overflow: hidden;
         cursor: url(../image/cursor/pointer.webp),pointer;

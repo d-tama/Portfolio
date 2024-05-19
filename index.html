@@ -754,21 +754,6 @@
                 speed: 400
             });
         }
-
-        // itemが画面に来たら表示するjs
-        document.querySelectorAll(".item").forEach(item => {
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        setTimeout(() => {
-                            entry.target.style.opacity = "1";
-                            observer.unobserve(entry.target);
-                        }, 200); // ディレイはここで調整できます（ミリ秒単位）
-                    }
-                });
-            });
-            observer.observe(item);
-        });
     </script>
 </body>
 
