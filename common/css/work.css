@@ -60,7 +60,7 @@ html {
 }
 .wrapper .information .datta-content {
   font-family: "Roboto", sans-serif;
-  text-align: right;
+  text-align: left;
 }
 .wrapper .information .languages .datta-content span,
 .wrapper .information .software .datta-content span {
