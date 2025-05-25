@@ -41,7 +41,7 @@ html {
     div{
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
         margin: max(1rem, 1vw) auto max(3rem, 1vw);
         img {
@@ -65,7 +65,7 @@ html {
     left: 50%;
     bottom: 5%;
     /*全体の高さ*/
-    height: 10vh;
+    height: 8vh;
 }
 
 /* 線の描写 */
