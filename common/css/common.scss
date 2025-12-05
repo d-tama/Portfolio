@@ -322,11 +322,7 @@ nav {
                     transition: all 0.3s ease-in-out;
                     color: transparent;
                     text-shadow: 0 calc(var(--hover-offset-y, 0em) * -1) 0 #000,
-                        0 calc(var(--base-offset-y, 1.7em) - var(--hover-offset-y, 0em)) 0 #000,
-                        0 calc(var(--hover-offset-y, 0em) * -1) 0.2rem $back-color,
-                        0 calc(var(--hover-offset-y, 0em) * -1) 0.2rem $back-color,
-                        0 calc(var(--base-offset-y, 1.7em) - var(--hover-offset-y, 0em)) 0.2rem $back-color,
-                        0 calc(var(--base-offset-y, 1.7em) - var(--hover-offset-y, 0em)) 0.2rem $back-color;
+                        0 calc(var(--base-offset-y, 1.7em) - var(--hover-offset-y, 0em)) 0 #000;
 
                     &:hover {
                         --hover-offset-y: 1.7em;
@@ -365,11 +361,7 @@ nav {
                         transition: all 0.3s ease-in-out;
                         color: transparent;
                         text-shadow: 0 calc(var(--hover-offset-y, 0em) * -1) 0 #000,
-                            0 calc(var(--base-offset-y, 1.7em) - var(--hover-offset-y, 0em)) 0 #000,
-                            0 calc(var(--hover-offset-y, 0em) * -1) 0.2rem $back-color,
-                            0 calc(var(--hover-offset-y, 0em) * -1) 0.2rem $back-color,
-                            0 calc(var(--base-offset-y, 1.7em) - var(--hover-offset-y, 0em)) 0.2rem $back-color,
-                            0 calc(var(--base-offset-y, 1.7em) - var(--hover-offset-y, 0em)) 0.2rem $back-color;
+                            0 calc(var(--base-offset-y, 1.7em) - var(--hover-offset-y, 0em)) 0 #000;
 
                         &:hover {
                             --hover-offset-y: 1.7em;
@@ -531,7 +523,7 @@ body {
             order: 2;
             position: absolute;
             bottom: -0%;
-            opacity: 0.7;
+            opacity: 0.3;
         }
 
         .gnav-navi-1 {
