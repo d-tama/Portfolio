@@ -1,0 +1,56 @@
+# Decap CMS 設定ファイル
+# ローカル開発: `npm run cms` (decap-server) を別ターミナルで起動した状態で
+#               `npm run dev` を実行し、 http://localhost:3000/admin/ を開く
+#               (local_backend: true により content/works/*.json を直接書き込みます)
+#
+# 本番(Vercel)で編集する場合は、GitHubリポジトリ作成 + OAuth Appの設定が必要です。
+# 設定後、下記の repo を実際の "ユーザー名/リポジトリ名" に書き換え、
+# local_backend の行を削除してください。
+backend:
+  name: github
+  repo: your-username/your-repo
+  branch: main
+
+local_backend: true
+
+media_folder: "public/works/uploads"
+public_folder: "/works/uploads"
+
+collections:
+  - name: "works"
+    label: "作品"
+    label_singular: "作品"
+    folder: "content/works"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    summary: "{{title}} ({{category}})"
+    fields:
+      - { label: "タイトル", name: "title", widget: "string" }
+      - label: "カテゴリ"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "デザイン", value: "design" }
+          - { label: "3DCG", value: "cg" }
+          - { label: "絵", value: "e" }
+      - { label: "制作日 (例: 2024/6/3)", name: "date", widget: "string" }
+      - { label: "表示順 (カテゴリ内の並び順、小さいほど先に表示)", name: "order", widget: "number", default: 0 }
+      - { label: "サムネイル画像", name: "thumbnail", widget: "image" }
+      - label: "詳細表示の種類"
+        name: "type"
+        widget: "select"
+        options:
+          - { label: "既存ページをiframe表示", value: "iframe" }
+          - { label: "説明文+画像で表示", value: "content" }
+        default: "content"
+      - { label: "既存ページのパス (typeがiframeの場合のみ。例: /works/design/sample/index.html)", name: "path", widget: "string", required: false, default: "" }
+      - { label: "説明文 (typeがcontentの場合)", name: "description", widget: "text", required: false, default: "" }
+      - label: "ギャラリー画像 (typeがcontentの場合)"
+        name: "images"
+        widget: "list"
+        field: { label: "画像", name: "image", widget: "image" }
+        required: false
+        default: []
